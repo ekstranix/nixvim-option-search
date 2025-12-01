@@ -24,7 +24,9 @@ params:
   releases:
     - name: unstable
       value: master
-    - name: 25.05 (stable)
+    - name: 25.11 (stable)
+      value: release-25.11
+    - name: 25.05
       value: release-25.05
     - name: 24.11
       value: release-24.11
