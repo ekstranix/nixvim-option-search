@@ -6,7 +6,7 @@ The new location is <a href="https://home-manager-options.extranix.com/">HOME-MA
 
 ## Please update your bookmarks
 
-Find [home manager](https://github.com/nix-community/home-manager) options quickly.
+Find [home manager](https://github.com/nix-community/home-manager) options quickly..
 
 ![](static/images/homemanageroptionsearch.gif)
 
