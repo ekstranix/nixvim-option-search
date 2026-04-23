@@ -1,31 +1,26 @@
-baseURL: https://home-manager-options.extranix.com/
+baseURL: https://nixvim-options.extranix.com/
 languageCode: en-us
-title: Home Manager - Option Search
+title: NixVim - Option Search
 theme: extranix-options-search
 
 params:
 
-  release_current_stable: release-25.11
+  release_current_stable: nixos-25.11
   releases:
     - name: unstable
-      value: master
+      value: main
     - name: 25.11 (stable)
-      value: release-25.11
+      value: nixos-25.11
     - name: 25.05
-      value: release-25.05
+      value: nixos-25.05
     - name: 24.11
-      value: release-24.11
+      value: nixos-24.11
     - name: 24.05
-      value: release-24.05
-    - name: 23.11
-      value: release-23.11
-    - name: 23.05
-      value: release-23.05
-    - name: 22.11
-      value: release-22.11
+      value: nixos-24.05
 
-  release_switch_title: Home Manager Release
+  release_switch_title: NixVim Release
 
+  # TODO update
   custom_head_scripts: |
     <script async src="https://umami.pimsnel.com/script.js" data-website-id="8e970d59-b517-4ba6-9b92-207e7dbdb4b1"></script>
     <script async src="https://media.ethicalads.io/media/client/ethicalads.min.js"></script>
@@ -34,28 +29,29 @@ params:
 
   footer_credits_line: |
     Powered by the <a href="https://nix-community.org/">Nix Community</a> |
-    <a href="https://github.com/mipmip/home-manager-option-search#credits">Credits</a> |
-    <a href="https://nix-community.github.io/home-manager/">Home Manager Documentation</a>
+    <a href="https://github.com/ekstranix/nixvim-option-search#credits">Credits</a> |
+    <a href="https://nix-community.github.io/nixvim/">NixVim Documentation</a>
 
   footer_copyright_line: |
-    Made with ❤️ by <a href="https://github.com/mipmip">Pim Snel</a> - © 2022-2024
+    Made with ❤️ by <a href="https://github.com/mipmip">Pim Snel</a> - © 2022-2026
 
+  # TODO
   logo: images/home-manager-option-search2.png
 
   github:
-    repo: home-manager-option-search
-    user: mipmip
+    repo: nixvim-option-search
+    user: ekstranix
     show_count: true
     show_text: true
 
   main_menu:
 
-    - name: HM&nbsp;Documentation
-      url: https://nix-community.github.io/home-manager/
+    - name: NixVim&nbsp;Documentation
+      url: https://nix-community.github.io/nixvim/
       icon_class: fa fa-book
 
     - name: Source
-      url: https://github.com/mipmip/home-manager-option-search
+      url: https://github.com/ekstranix/nixvim-option-search
       icon_class: fa fa-github
 
 markup:

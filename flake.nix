@@ -1,5 +1,5 @@
 {
-  description = "Home Manager option search static website generator";
+  description = "NixVim option search static website generator";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
