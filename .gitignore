@@ -5,3 +5,9 @@ result
 data/options-release-23.11.json
 data/options-master.json
 .hugo_build.lock
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
