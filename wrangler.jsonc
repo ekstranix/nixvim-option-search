@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "nixvim-option-search-2026",
+  "name": "nixvim-option-search",
   "compatibility_date": "2025-09-27",
   "observability": {
     "enabled": true
